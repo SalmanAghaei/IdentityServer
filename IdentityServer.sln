@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer.csproj", "{054852F0-2D89-42F4-B1E3-63AB5D1243BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget.config", ".nuget.config", "{8B27A150-4435-4F85-8D63-E21F60D2FFC6}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClient", "..\ApiClient\ApiClient.csproj", "{C7E84C3C-3D31-48BB-BAEE-5181C2A62ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "..\WebClient\WebClient.csproj", "{9E59D718-DF7A-4E83-BADC-E93CB97EFDBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{054852F0-2D89-42F4-B1E3-63AB5D1243BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054852F0-2D89-42F4-B1E3-63AB5D1243BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054852F0-2D89-42F4-B1E3-63AB5D1243BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054852F0-2D89-42F4-B1E3-63AB5D1243BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E84C3C-3D31-48BB-BAEE-5181C2A62ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E84C3C-3D31-48BB-BAEE-5181C2A62ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E84C3C-3D31-48BB-BAEE-5181C2A62ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E84C3C-3D31-48BB-BAEE-5181C2A62ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E59D718-DF7A-4E83-BADC-E93CB97EFDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E59D718-DF7A-4E83-BADC-E93CB97EFDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E59D718-DF7A-4E83-BADC-E93CB97EFDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E59D718-DF7A-4E83-BADC-E93CB97EFDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F571E494-F190-4F43-B756-F2BBE3C995D0}
+	EndGlobalSection
+EndGlobal
